@@ -1,2 +1,3 @@
 rootProject.name = 'animgr'
-
+include ':slik'
+project(':slik').projectDir = new File(settingsDir, '../fm-slik-kt')
